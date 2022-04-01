@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "YiSeungWan's records"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "I have too much to study. even this blog."
 name                     : "Yi Seung Wan"
 description              : "A space to record my overall study"
 url                      : "https://yiseungwan.github.io"
