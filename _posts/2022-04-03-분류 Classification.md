@@ -117,7 +117,7 @@ typora-copy-images-to: ..\images
 - 주어진 (입력, 출력)에 대한 데이터 이용 : 학습 데이터(training data)
 
 $$
-\{(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)\}
+\left{\left(x_1, y_1\right), \left(x_2, y_2\right), ..., \left(x_n, y_n\right)\right}
 $$
 
 - 지도학습의 목적 : 새로운 입력이 있을 때 결과를 결정할 수 있도록 하는 방법을 찾아내는 것.
