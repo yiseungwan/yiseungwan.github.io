@@ -583,15 +583,27 @@ for i, degree in enumerate([1, 3, 5, 10], start = 1):
 
 
 ### - 추천 기법 : 크게 3가지가 있음
+
+
+
 #### - 내용 기반 추천(content-based recommendation)
       - 고객이 이전에 높게 평가했던 것과 유사한 내용을 갖는 대상을 추천
+
+
+
 #### - 협력 필터링(collaborative filtering)
 ##### - 사용자간 협력 필터링(user-user collaborative filtering)
       - 추천 대상 사용자와 비슷한 평가를 한 사용자 집합 이용
       - 쉽게 말하자면, 추천을 할 대상자가 내려왔던 평가와 비슷한 경향을 가진 사용자 집합에서 높은 평가를 받은 것을 추천에 이용
+
+
+
 ##### - 항목간 협력 필터링(item-item collaborative filtering)
       - 항목간의 유사도를 구하여 유사 항목을 선택
       - 추천했던 대상과 유사한 특징을 가진 대상을 추천
+
+
+
 #### - 은닉 요소 모델(latent factor model)
     - 추천 데이터 행렬을 다른 행렬들에 대한 곱으로 나타낸다고 가정
     - 아래 행렬을 순서대로 M, A, B라고 한다면 M = A * B인 것으로 가정
