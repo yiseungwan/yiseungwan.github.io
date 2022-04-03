@@ -174,7 +174,7 @@ $\ \ -\ \left\{(x_1,\ \ y_1),\ (x_2,\ \ y_2),\ ...\ ,\ (x_n,\ \ y_n),\ \right\}$
 
 #### 범주형 속성(playTennis의 예)   
 
-![playTennis데이터](../assets/images/classification/playTennis_data.png)
+![playTennis데이터](/assets/images/classification/playTennis_data.png)
 
 ![playTennis'_decisiontree](../images/playTennis'_decisiontree.PNG)
 
