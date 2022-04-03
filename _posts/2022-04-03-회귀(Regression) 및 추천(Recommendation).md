@@ -124,6 +124,7 @@ use_math: true
 
 
 $ f^{*}(x) = argf^{*}(x) = argmin_f\sum_{i=1}^{n}(y_i-f(x_i))^2 $
+f∗(x)=argf∗(x)=argminf∑ni=1(yi−f(xi))2
 
 
 오차의 제곱들의 합을 최소화하는 함수를 찾는 것이 회귀의 목표이다.  
