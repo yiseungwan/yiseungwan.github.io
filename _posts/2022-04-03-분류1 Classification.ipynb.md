@@ -1,1 +1,0 @@
- [2022-04-03-분류 Classification.ipynb](C:\Users\a1cls\blog\2022-04-03-분류 Classification.ipynb) 
