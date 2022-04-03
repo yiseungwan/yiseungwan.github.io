@@ -5,6 +5,7 @@ categories: Supervised_Learning
 tag: [python, SupervisedLearning, MachineLearning, Classification]
 toc: true
 author_profile: false
+use_math: true
 ---
 
 <head>
