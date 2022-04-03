@@ -122,14 +122,14 @@ use_math: true
 
 - 함수의 형태는 주어지고(1차식, 2차식, 3차식, 지수함수 등) 파라미터들을 결정하게 되는데, x에 대한 참값(실제 대응값)과 기댓값의 차이(=오차)가 적어야 함
 
-$$f^*(x) = argf^*(x) = argmin_f\sum_{i=1}^{n}(y_i-f(x_i))^2$$
+- $$f^*(x) = argf^*(x) = argmin_f\sum_{i=1}^{n}(y_i-f(x_i))^2$$
 
 
 오차의 제곱들의 합을 최소화하는 함수를 찾는 것이 회귀의 목표이다.  
 
 argmin은 오차 제곱의 합을 작게 하는 파라미터 아규먼트를 찾는 의미
 
-![ErrorFunction](/assets/images/regression/errorfunction.PNG)
+![ErrorFunction](/assets/images/regression/errorfunction.png)
 
 
 #### - 성능
@@ -142,11 +142,11 @@ argmin은 오차 제곱의 합을 작게 하는 파라미터 아규먼트를 찾
 
     
 
-    $$ E = \frac{1}{n}\sum_{i=1}^{n}(y_i - f(x_i))^2 $$
+    - $ E = \frac{1}{n}\sum_{i=1}^{n}(y_i - f(x_i))^2 $
 
     - 모델의 종류(함수의 종류)에 영향을 받음
 
-    ![diffoffunc](/assets/images/regression/diffoffunc.PNG)
+    ![diffoffunc](/assets/images/regression/diffodfunc.PNG)
 
 
 ### 경사 하강법(Gradient descent method)
@@ -198,7 +198,7 @@ $\triangledown E = (\frac{\partial E}{\partial a}, \frac{\partial E}{\partial b}
 
 ### 최대 경사법(경사 하강법) 기반의 학습 알고리즘
 
-![algorithms](/assets/images/regression/algorithms.PNG)
+![algorithms](/assets/images/regression/algorithms.png)
 
 
 ### [실습] 선형회귀
@@ -254,7 +254,7 @@ plt.show()
 
 - 회귀 모델을 만들 때에는 함수의 복잡도에 대해 고려하는 것이 중요하다
 
-![somefittings](/assets/images/regression/somefittings.PNG)
+![somefittings](/assets/images/regression/somefittings.png)
 
 
 ### 회귀의 과적합 대응 방법
@@ -273,7 +273,7 @@ plt.show()
 
 
 
-$$ 목적함수 = 오차의 합(보통 오차의 제곱의 합을 사용) + (가중치)*(모델 복잡도(=패널티)) $$
+- $$ 목적함수 = 오차의 합(보통 오차의 제곱의 합을 사용) + (가중치)*(모델 복잡도(=패널티)) $$
 
 
 ### 로지스틱 회귀(logistic regression)
@@ -290,7 +290,7 @@ $$ 목적함수 = 오차의 합(보통 오차의 제곱의 합을 사용) + (가
 
 
 
-![logistic](/assets/images/regression/logistic.PNG)
+![logistic](/assets/images/regression/logistic.png)
 
 - 출력값이 {0, 1}인 경우에 선형 회귀에서 제대로 표현하기 어려움
 
@@ -476,9 +476,9 @@ plt.show()
 
 - 편향과 분산이 작을수록 좋지만 반비례 관계이므로 중간을 맞추는 것이 현실적
 
-![편항](/assets/images/regression/편항.PNG)
+![편항](/assets/images/regression/편항.png)
 
-![편항2](/assets/images/regression/편항2.PNG)
+![편항2](/assets/images/regression/편항2.png)
 
 
 ### 편향-분산 분해
@@ -491,7 +491,7 @@ $bias\left(편향\right)는 \overline {F}\left(x_0\right)-f^*\left(x_0\right),\ 
 
 #### 회귀 모델에서 오차는 편향(bias), 분산(variance), 잡음(noise) 성분으로 구별할 수 있다.
 
-![편향3](/assets/images/regression/편항3.PNG)
+![편향3](/assets/images/regression/편항3.png)
 
 
 
@@ -583,7 +583,7 @@ for i, degree in enumerate([1, 3, 5, 10], start = 1):
 
     - 채워진 부분은 학습 데이터를 준 것 / 비어있는 곳이 테스트 데이터라고 볼 수 있음
 
-    ![recommend_data](/assets/images/regression/recommend_data.PNG)
+    ![recommend_data](/assets/images/regression/recommend_data.png)
 
 
 ### - 추천 기법 : 크게 3가지가 있음
@@ -648,5 +648,5 @@ for i, degree in enumerate([1, 3, 5, 10], start = 1):
 
     - 행렬 분해에 기반한 방법   
 
-![recommend_data2](/assets/images/regression/recommend_data2.PNG)
+![recommend_data2](/assets/images/regression/recommend_data2.png)
 
