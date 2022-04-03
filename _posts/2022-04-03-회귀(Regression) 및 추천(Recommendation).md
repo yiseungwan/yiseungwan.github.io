@@ -586,11 +586,11 @@ for i, degree in enumerate([1, 3, 5, 10], start = 1):
 
 
 
-####   - 내용 기반 추천(content-based recommendation)
+#### - 내용 기반 추천(content-based recommendation)
 
 
 
-    - 고객이 이전에 높게 평가했던 것과 유사한 내용을 갖는 대상을 추천
+      - 고객이 이전에 높게 평가했던 것과 유사한 내용을 갖는 대상을 추천
 
 
 
