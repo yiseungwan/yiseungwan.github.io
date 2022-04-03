@@ -408,7 +408,7 @@ plt.show()
 
   
 
-![SMOTE](/assets/images/classification/SMOTE-164895053429015.png)
+![SMOTE](/assets/images/classification/SMOTE.png)
 
 
 ### 이진 분류기의 성능 평가
