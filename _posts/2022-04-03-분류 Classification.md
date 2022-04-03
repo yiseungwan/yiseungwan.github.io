@@ -124,7 +124,7 @@ $${(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)}$$
 
 
 
- - $y\ =\ f\left(x\right)$
+ - $$y = f(x)$$
 
 - 분류(Classification) : 출력값에 해당하는 것이 부류(class), 범주(category) 중의 하나로 결정
 
