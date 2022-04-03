@@ -122,7 +122,7 @@ use_math: true
 
 - 함수의 형태는 주어지고(1차식, 2차식, 3차식, 지수함수 등) 파라미터들을 결정하게 되는데, x에 대한 참값(실제 대응값)과 기댓값의 차이(=오차)가 적어야 함
 
-- $f^*(x) = argf^*(x) = argmin_f\sum_{i=1}^{n}(y_i-f(x_i))^2$
+- $ f^*(x) = argf^*(x) = argmin_f\sum_{i=1}^{n}(y_i-f(x_i))^2 $
 
 
 오차의 제곱들의 합을 최소화하는 함수를 찾는 것이 회귀의 목표이다.  
@@ -491,7 +491,7 @@ $bias\left(편향\right)는 \overline {F}\left(x_0\right)-f^*\left(x_0\right),\ 
 
 #### 회귀 모델에서 오차는 편향(bias), 분산(variance), 잡음(noise) 성분으로 구별할 수 있다.
 
-![bias3](/assets/images/regression/bias3.png)
+![bias3](/assets/images/regression/bias3.PNG)
 
 
 
