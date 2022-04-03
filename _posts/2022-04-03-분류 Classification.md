@@ -175,7 +175,7 @@ $\ \ -\ \left\{(x_1,\ \ y_1),\ (x_2,\ \ y_2),\ ...\ ,\ (x_n,\ \ y_n),\ \right\}$
 
 ![playTennis데이터](../images/playTennis데이터-16489504116954.PNG)
 
-![playTennis'_decisiontree](../images/2022-04-03-분류 Classification/playTennis'_decisiontree.PNG)
+![playTennis'_decisiontree](../images/playTennis'_decisiontree.PNG)
 
 - 입력 데이터 : Day, Outlook, Temperature, Humidity, Wind 
 
