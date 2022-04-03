@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "2022-04-03-회귀(Regression) 및 추천(Recommendation)"
-categories: coding
+categories: Supervised_Learning
 tag: [python, SupervisedLearning, MachineLearning, Regression, Recommendation]
 toc: true
 author_profile: false
