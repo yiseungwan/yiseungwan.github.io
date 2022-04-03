@@ -145,7 +145,7 @@ $\ \ -\ \left\{(x_1,\ \ y_1),\ (x_2,\ \ y_2),\ ...\ ,\ (x_n,\ \ y_n),\ \right\}$
 
 - 출력이 정해진 부류(Class)가 있을 때 입력을 각 클래스에 대응시키는 문제  
 
-![결정경계](../images/2022-04-03-분류 Classification/결정경계.PNG)
+![결정경계](/assets/images/classification/결정경계.PNG)
 
 - 학습 데이터가 주어질 때, 분류 문제에서는 데이터들을 분류하는 경계(결정 경계 decision boundary)를 나타내는 함수를 찾는 것이 목표
 
@@ -176,7 +176,7 @@ $\ \ -\ \left\{(x_1,\ \ y_1),\ (x_2,\ \ y_2),\ ...\ ,\ (x_n,\ \ y_n),\ \right\}$
 
 ![playTennis데이터](/assets/images/classification/playTennis_data.png)
 
-![playTennis'_decisiontree](../images/playTennis'_decisiontree.PNG)
+![playTennis'_decisiontree](/assets/images/classification/playTennis'_decisiontree.PNG)
 
 - 입력 데이터 : Day, Outlook, Temperature, Humidity, Wind 
 
@@ -189,11 +189,11 @@ $\ \ -\ \left\{(x_1,\ \ y_1),\ (x_2,\ \ y_2),\ ...\ ,\ (x_n,\ \ y_n),\ \right\}$
 
 #### 수치형 속성(iris data의 예)
 
-![iris_data](../images/2022-04-03-분류 Classification/iris_data.PNG)
+![iris_data](/assets/images/classification/iris_data.PNG)
 
-![iris_knn](../images/2022-04-03-분류 Classification/iris_knn.PNG)
+![iris_knn](/assets/images/classification/iris_knn.PNG)
 
-![iris_decisiontree](../images/2022-04-03-분류 Classification/iris_decisiontree.PNG)
+![iris_decisiontree](/assets/images/classification/iris_decisiontree.PNG)
 
 - 입력 데이터 : 수치형
 
@@ -308,7 +308,7 @@ plt.show()
 
   
 
-![overfitting_underfitting](../images/2022-04-03-분류 Classification/overfitting_underfitting.png)
+![overfitting_underfitting](/assets/images/classification/overfitting_underfitting.png)
 
 
 ### 과적합 회피 방법
@@ -331,7 +331,7 @@ plt.show()
 
   
 
-![timetostoplearning](../images/2022-04-03-분류 Classification/timetostoplearning.png)
+![timetostoplearning](/assets/images/classification/timetostoplearning.png)
 
 
 ### 분류기의 성능 평가
@@ -369,7 +369,7 @@ plt.show()
 
   
 
-![kfoldcrossvalidation](../images/2022-04-03-분류 Classification/kfoldcrossvalidation.png)
+![kfoldcrossvalidation](/assets/images/classification/kfoldcrossvalidation.png)
 
 
 
@@ -385,7 +385,7 @@ plt.show()
 
 - 고객 거래 정보와 신용도에 관한 데이터 분석을 했을 때, 신용이 안전한 고객(1)과 신용이 위험한 고객(0)의 비율이 9:1 정도 되었음. 이런 경우를 불균형 부류 데이터 문제라고 칭함. 당시에는 리샘플링을 통해서 해결했음.
 
-![imbalancedclassdata](../images/2022-04-03-분류 Classification/imbalancedclassdata.png)
+![imbalancedclassdata](/assets/images/classification/imbalancedclassdata.png)
 
 #### - 대응 방안
 
@@ -410,7 +410,7 @@ plt.show()
 
   
 
-![SMOTE](../images/2022-04-03-분류 Classification/SMOTE-164895053429015.png)
+![SMOTE](/assets/images/classification/SMOTE-164895053429015.png)
 
 
 ### 이진 분류기의 성능 평가
@@ -421,7 +421,7 @@ plt.show()
 
  
 
-![classifier](../images/2022-04-03-분류 Classification/classifier.png)
+![classifier](/assets/images/classification/classifier.png)
 
 
 
@@ -462,7 +462,7 @@ plt.show()
 
 
 
-![ROC](../images/2022-04-03-분류 Classification/ROC.png)
+![ROC](/assets/images/classification/ROC.png)
 
   - 빨간 선이 기준일 때 기준보다 크면 Positive, 작으면 Negative로 판정하는데 이 기준을 계숙 움직일 때 위양성율과 민감도의 반응을 그래프로 그려놓은 것
 
@@ -477,5 +477,5 @@ plt.show()
 
   
 
-![auc](../images/2022-04-03-분류 Classification/auc.png)
+![auc](/assets/images/classification/auc.png)
 
