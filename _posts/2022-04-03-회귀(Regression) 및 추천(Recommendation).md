@@ -4,6 +4,7 @@ title:  "회귀(Regression) 및 추천(Recommendation)"
 categories: Supervised_Learning
 tag: [python, SupervisedLearning, MachineLearning, Regression, Recommendation]
 toc: true
+toc_sticky: true
 author_profile: false
 use_math: true
 ---
