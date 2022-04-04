@@ -10,11 +10,11 @@
       </li>
       <li>
         
-                {% for category in site.categories %}
+                <!-- {% for category in site.categories %}
                     {% if category[0] == "Project" %}
                         <a href="/categories/project" class=""><span class="nav__sub-title">Project ({{category[1].size}})</span></a>
                     {% endif %}
-                {% endfor %}
+                {% endfor %} -->
         <span class="nav__sub-title">Machine_Learning</span>
             <ul>
                 {% for category in site.categories %}
@@ -97,13 +97,13 @@
                     {% endif %}
                 {% endfor %}
             </ul> -->
-            <ul>
+            <!-- <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Etc" %}
                         <li><a href="/categories/etc" class=""> 창고 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> -->
       </li>
   </ul>
 </nav>
