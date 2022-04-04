@@ -7,6 +7,7 @@ toc: true
 author_profile: false
 use_math: true
 typora-copy-images-to: ..\images
+toc_sticky: true
 ---
 
 <head>

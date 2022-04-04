@@ -7,6 +7,7 @@ toc: true
 toc_sticky: true
 author_profile: false
 use_math: true
+toc_sticky: true
 ---
 
 <head>
