@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "자바 채팅프로그램 (클라이언트)"
-categories: Java
+categories: Java_Chatting
 tag: [java, chatting, threadPool, tcp/ip, thread]
 toc: true
 author_profile: true

@@ -23,20 +23,20 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-                {% for category in site.categories %}
+                <!-- {% for category in site.categories %}
                     {% if category[0] == "Java" %}
-                        <a href="/categories/Java" class=""><span class="nav__sub-title">Java ({{category[1].size}})</span></a>
+                        <a href="/categories/Java" class=""><span class="">Java ({{category[1].size}})</span></a>
                     {% endif %}
-                {% endfor %}
-        <!-- <span class="nav__sub-title">Native App</span>
+                {% endfor %} -->
+        <span class="nav__sub-title">Java</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Android" %}
-                        <li><a href="/categories/android" class="">Android ({{category[1].size}})</a></li>
+                    {% if category[0] == "Java_Chatting" %}
+                        <li><a href="/categories/Java_Chatting" class="">Java Chatting ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-
+<!-- 
         <span class="nav__sub-title">Computer Science</span>
             <ul>
                 {% for category in site.categories %}
