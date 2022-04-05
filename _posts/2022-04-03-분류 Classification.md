@@ -82,7 +82,7 @@ toc_sticky: true
 </head>
 
 
-# 지도학습 - 1. 분류(Classification)
+# 지도학습 - 1. 분류(Classification)zzz
 
 지도학습은 분류, 회귀, 추천으로 나뉘는데 이번 포스트에서는  
 
